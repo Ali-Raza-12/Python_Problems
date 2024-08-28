@@ -1,6 +1,6 @@
-# Using modulus operator
+# Check the number is even or odd using 4 different techniques
 
-
+# Method-1 Using modulus operator
 # n = int(input('Enter a number:'))
 # if n % 2 == 0:
 #     print(f'{n} is Ever')
@@ -9,9 +9,7 @@
 
 # ===========================================
 
-# Using Bitwise operator
-
-
+# Method-2 Using Bitwise operator
 # n = int(input('Enter a number:'))
 # if n & 1:
 #     print(f'{n} is odd')
@@ -20,7 +18,7 @@
 
 # ==============================================
 
-# # using Recursion
+#Method-3 using Recursion
 
 # n = int(input('Enter a number:'))
 
@@ -37,7 +35,7 @@
 
 # ================================================
 
-# Using lambda function
+#Method-4 Using lambda function
 
 check = lambda num: 'even' if num % 2 == 0 else 'odd'
 
