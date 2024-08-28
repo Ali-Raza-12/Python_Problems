@@ -1,4 +1,4 @@
-# Check the number is even or odd using 4 different techniques
+# Check the number is Even or Odd using 4 different methods
 
 # Method-1 Using modulus operator
 # n = int(input('Enter a number:'))
