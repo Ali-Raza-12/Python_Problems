@@ -25,13 +25,29 @@
 
 # Method-3 Using Recursion
 
-l = []
-def sum(n):
-    if(n==0):
-        return l
-    first = n % 10
-    l.append(first)
-    sum(n // 10)
+# l = []
+# def sum(n):
+#     if(n==0):
+#         return l
+#     first = n % 10
+#     l.append(first)
+#     sum(n // 10)
 
-n = int(input('Enter a num:'))
-print(sum(n))
+# n = int(input('Enter a num:'))
+# print(sum(n))
+
+# ==========================================================
+
+# Method-4 Without Recursion in Python
+
+l = []
+b = int(input('Enter a number:'))
+while(b>0):
+    dig = b % 10
+    l.append(dig)
+    b = b // 10 
+
+print(sum(l))
+
+
+
