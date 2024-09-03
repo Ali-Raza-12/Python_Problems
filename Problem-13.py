@@ -1,4 +1,4 @@
-# Python Program to Print Table of a Given Number
+# Method:Python Program to Print Table of a Given Number
 
 num = int(input('Enter numb for Table:'))
 
