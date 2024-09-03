@@ -1,5 +1,4 @@
-# Python Program to Calculate Grade of a Student
-
+# Method:Python Program to Calculate Grade of a Student
 
 sub1 = int(input('Enter nunb in sub1:'))
 sub2 = int(input('Enter nunb in sub2:'))
@@ -20,4 +19,4 @@ elif (avg >= 60 and avg < 70):
 elif (avg >= 50 and avg < 60):
     print('Your Grade is P')
 else:
-    print('You Grade is F')
+    print('Fail')
